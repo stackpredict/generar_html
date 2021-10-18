@@ -1,0 +1,39 @@
+/*  Estilos generales */
+* {
+  font-family: OpenSansCustom;
+  background-color: darkgray;
+}
+#formulario {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid gray;
+  width: 260px;
+  height: 204px;
+  margin: 6px;
+  background-color: lightblue;
+}
+#formulario label {
+  background-color: lightblue;
+}
+iText {
+  background-color: lightblue;
+}
+#botones {
+  background-color: lightblue;
+}
+#btnSubmit,
+#btnMostrar {
+  margin-top: 25px;
+  width: 90px;
+  height: 30px;
+}
+#containerPrincipal {
+  display: flex;
+  flex-direction: row;
+}
+#displayTodos,
+#displayTodos p,
+#displayTodos strong,
+#displayTodos h3 {
+  background-color: lightblue;
+}
